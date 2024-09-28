@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Fraunces', serif; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* #c4a47c
+    #fff
+    #000000
+    #604829
+    #666
+    #ACACAC */
+}
+
+/*------------ SEÇÃO 1  ------------*/
+
+.container {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url(img/parallax-imagem1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    background-color: greenyellow;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-color: #604829;
+}
+.nav img {
+    position: absolute;
+    width: 100px;
+    left: 15%;
+}
+
+.link {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.link a {
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px black;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container h1 {
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    top: 45%;
+    left: 300px;
+    height: 100vh;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+}
+
+/*------------ SEÇÃO 2 ------------*/
+
+.container2 {
+    position: relative;
+    width: 100%;
+
+}
+
+.titulo {
+    text-align: center;
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    top: 10px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.paragrafo {
+    position: absolute;
+    height: 200px;
+    /* top: 370%; */
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 35px;
+    color: #666;
+}
+
+.paralax2 {
+    position: relative;
+    background-image: url(img/parallax-imagem2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    margin-top: 300px;
+}
+
+.paralax2 p {
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    transform: translate(-50%, -50%);
+    background-color: #604829 ;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    padding: 10px 20px;
+
+}
+
+.paragrafo2 {
+    position: absolute;
+    height: 200px;
+    top: 370%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 35px;
+    color: #666;
+}
+
+
+.paralax3 {
+    position: relative;
+    background-image: url(img/parallax-imagem3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    margin-top: 300px;
+
+}
+
+.paralax3 p {
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    background-color: #604829 ;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    padding: 10px 20px;
+}
+
+.container5 {
+    margin-top: 350px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background-image: url(img/parallax-imagem4.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container5 > .p1 {
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    transform: translate(-50%, -50%);
+    background-color: #604829 ;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 80px;
+}
+
+.container5 iframe {
+    position: absolute;
+    left: 50%;
+    top: 450px;
+    transform: translate(-50%, -50%);
+}
+
+.contact {
+    position: absolute;
+    bottom: -70px;
+    background-color: #604829;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 60px;
+
+}
+
+.contact h4 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.horarios {
+
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.horarios p {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.lista li{
+    display: flex;
+    align-items: center;
+}
+.dia {
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.tarja {
+    position: absolute;
+    width: 600px;
+    height: 1px;
+    right: 35% ;
+    /* top: 390px; */
+    background-color: #fff;
+    /* margin: 10px 0; */
+}
+
+.horas {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    right: 25% ;   
+    font-weight: normal;
+
+
+}
+
+.secao6 {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
+
+.rodape {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.nome {
+    color: #c4a47c ;
+}
+
+/* span {
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+} */
+
+.botao {
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+}
+
+.botao img {
+    width: 50px;
+}
