@@ -18,7 +18,7 @@
 .container {
     /* width: 100%; */
     height: 100vh;
-    background-image: url(img/parallax-imagem1.png);
+    background-image: url(parallax-imagem1.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -98,7 +98,7 @@
 
 .paralax2 {
     position: relative;
-    background-image: url(img/parallax-imagem2.jpg);
+    background-image: url(parallax-imagem2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -136,7 +136,7 @@
 
 .paralax3 {
     position: relative;
-    background-image: url(img/parallax-imagem3.jpg);
+    background-image: url(parallax-imagem3.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -165,7 +165,7 @@
     height: 100vh;
     position: relative;
     text-align: center;
-    background-image: url(img/parallax-imagem4.png);
+    background-image: url(parallax-imagem4.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -212,7 +212,7 @@
     position: relative;
     width: 100%;
     height: 80vh;
-    background-image: url(img/cafeteria.jpg);
+    background-image: url(cafeteria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
